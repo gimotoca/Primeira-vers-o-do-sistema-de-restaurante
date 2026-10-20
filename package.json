@@ -1,0 +1,16 @@
+{
+  "name": "restaurante-typescript",
+  "version": "1.0.0",
+  "description": "Sistema simples de restaurante usando TypeScript e Repository com arrays",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
